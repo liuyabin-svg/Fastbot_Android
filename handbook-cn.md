@@ -59,7 +59,7 @@ Fastbot 采用了 Sarsa N-Step 算法作为强化学习模型，如 Fastbot 结�
 ```shell
 curl -s "https://get.sdkman.io" | bash
 ```
-
+source "$HOME/.sdkman/bin/sdkman-init.sh"
 安装好 sdkman 后，请 cd 到 Fastbot 的项目文件夹中打开 shell，在 shell 中执行如下命令：
 ```shell
 sdk install gradle 7.6.2 
